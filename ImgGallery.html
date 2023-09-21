@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+  padding: 1px
+}
+h2{
+  text-align: center;
+  padding: 1px;
+  color: rgb(236, 11, 11);
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 6px;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+
+  <h1>Image Gallery</h1>
+  <h2>Good Fragranses Changes Your Feelings & Life </h2>
+
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="/fim/fra1.jpg" style="width:100%">
+    <img src="/fim/fra2.jpg" style="width:100%">
+    <img src="/fim/fra3.jpg" style="width:100%">
+    <img src="/fim/fra4.jpg" style="width:100%">
+    <img src="/fim/fra5.jpg" style="width:100%">
+    <img src="/fim/f13.jpg" style="width:100%">
+    <img src="fim/fra7.jpg" style="width:100%">
+    <img src="/fim/f14.jpg" style="width:100%" height="12%">
+  </div>
+  <div class="column">
+    <img src="/fim/fra8.jpg" style="width:100%">
+    <img src="/fim/fra9.jpg" style="width:100%" height="14%">
+    <img src="/fim/fraa.jpg" style="width:100%">
+    <img src="/fim/frab.jpg" style="width:100%">
+    <img src="/fim/f20.jpg" style="width:100%">
+    <img src="/fim/frad.jpg" style="width:100%">
+    <img src="/fim/f21.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="/fim/frae.jpg" style="width:100%">
+    <img src="/fim/fraf.jpg" style="width:100%">
+    <img src="/fim/f6.jpg" style="width:100%" height="15%">
+    <img src="/fim/f2.jpg" style="width:100%">
+    <img src="/fim/f3.jpg" style="width:100%" >
+    <img src="/fim/f16.jpg" style="width:100%" height="16%">
+    <img src="/fim/f10.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/fim/f24.jpg" style="width:100%">
+    <img src="/fim/f7.jpg" style="width:100%">
+    <img src="/fim/f8.jpg" style="width:100%">
+    <img src="/fim/f9.jpg" style="width:100%">
+    <img src="/fim/f17.jpg" style="width:100%">
+    <img src="/fim/f11.jpg" style="width:100%">
+    <img src="/fim/f19.jpg" style="width:100%">
+    <img src="/fim/f23.jpg" style="width:100%">
+ 
+    
+  </div>
+</div>
+
+</body>
+</html>
